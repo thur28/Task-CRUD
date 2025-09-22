@@ -16,6 +16,11 @@ class TaskController {
     @Autowired
     lateinit var repo : TaskRepository
 
+    @GetMapping("/")
+    fun redirectToHome(): String {
+        return "redirect:/home"
+    }
+
 
     //this function will open the form
     @GetMapping("/form/register") // Receive GET requests
