@@ -3,6 +3,8 @@
 Aplicação simples de gerenciamento de tarefas construída com **Kotlin** e **Spring Boot**, parte do meu portfólio de desenvolvimento com objetivo de oportunidades internacionais até 2027.
 
 📅 **Início:** 06/09/2025  
+   **Pequeno ajuste:** 22/09/2025
+
 🎯 **Meta:** Construir um portfólio sólido com projetos práticos, bem documentados e seguindo padrões internacionais.
 
 ---
