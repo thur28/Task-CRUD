@@ -4,7 +4,9 @@ import jakarta.persistence.Entity
 import jakarta.persistence.GeneratedValue
 import jakarta.persistence.GenerationType
 import jakarta.persistence.Id
+import jakarta.persistence.JoinColumn
 import java.time.LocalDate
+import jakarta.persistence.ManyToOne
 
 @Entity
 data class Task(
@@ -17,6 +19,11 @@ data class Task(
     val title: String = "",
     val description: String= "",
     val status: String= "",
-    val dueDate: LocalDate? = null
+    val dueDate: LocalDate? = null,
+
+    @ManyToOne
+    @JoinColumn(name = "user_id")
+    var user: User? = null
+
 ) {
 }
