@@ -4,19 +4,19 @@ Aplicação simples de gerenciamento de tarefas construída com **Kotlin** e **S
 
 📅 **Início:** 06/09/2025  
    **Pequeno ajuste:** 22/09/2025
+🧩 **Última atualização:** 09/10/2025
 
 🎯 **Meta:** Construir um portfólio sólido com projetos práticos, bem documentados e seguindo padrões internacionais.
 
 ---
 
-## 🚀 Funcionalidades
+🚀 Funcionalidades Atuais
 
-- Criar, ler, atualizar e deletar tarefas (CRUD)  
-- Validação de formulários para garantir dados corretos  
-- Interface web com templates **Thymeleaf**  
-- Layout responsivo com **Bootstrap**  
-- Persistência de dados usando **MySQL**  
-- Estrutura de projeto seguindo boas práticas do Spring Boot
+- CRUD completo de tarefas (Create, Read, Update, Delete)
+- Integração com banco de dados MySQL via JPA
+- Validação de formulários (na versão MVC)
+- Templates com Thymeleaf e layout responsivo com Bootstrap
+- Relacionamento entre Usuário e Tarefa (1:N)
 
 ---
 
@@ -35,7 +35,7 @@ Aplicação simples de gerenciamento de tarefas construída com **Kotlin** e **S
 
 ---
 
-## ⚙️ Como Executar
+## ⚙️ Como Executar **(AINDA NÃO ESTÁ FUNCIONANDO)**
 
 1. Clone o repositório: https://github.com/thur28/Task-CRUD.git
 2. Abra o projeto no **IntelliJ IDEA**.  
@@ -53,6 +53,14 @@ Aplicação simples de gerenciamento de tarefas construída com **Kotlin** e **S
 - Expandir **endpoints da API** para integrações externas
 
 ---
+
+🧱 Em Desenvolvimento
+
+- API REST para gerenciamento de tarefas e usuários
+- Autenticação e controle de acesso por usuário
+- Frontend moderno (React ou similar) consumindo a API
+- Melhorias de UX/UI e padronização de respostas da API
+- Testes automatizados de unidade e integração
 
 ## 📈 Contexto do Portfólio
 
